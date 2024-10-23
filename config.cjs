@@ -3,8 +3,8 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "Bmwmd$dtx7nWCF",
-  PREFIX: process.env.PREFIX || '.',
+  SESSION_ID: process.env.SESSION_ID || "Bmwmd$5BT1Dbae",
+  PREFIX: process.env.PREFIX || '&',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : false, 
   AUTO_DL: process.env.AUTO_DL !== undefined ? process.env.AUTO_DL === 'true' : false,
   AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'true' : true,
@@ -19,8 +19,8 @@ const config = {
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
   MODE: process.env.MODE || "public",
-  OWNER_NAME: process.env.OWNER_NAME || "𝐋𝚯𝚪𝐃 𝐃𝚫𝚪𝐊 𝐒𝚫𝐒𝚫𝐊𝚰",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "237672080608",
+  OWNER_NAME: process.env.OWNER_NAME || "𓆩ᬼ⃟𝑲𝑨𝑹𝑴𝑨𝑬𝑳⛃⃟༄ 亗𝐓𝐘𝐑𝐀𝐍𝐓亗࿐",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "237694722989",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : true, 
 };
